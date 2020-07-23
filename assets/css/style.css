@@ -343,6 +343,13 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 /* Custom Navmenu */
 .custom-navmenu {
   background: #0d1e2d;
+  
+}
+
+.custom-menu {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
 }
 
 .custom-navmenu .custom-menu, .custom-navmenu .custom-menu li {
@@ -478,6 +485,32 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 
 .footer a {
   color: #000;
+}
+
+.img-lists {
+  display: block;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.major-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+  padding-left: 0;
+}
+
+.img-icons {
+  width: 100px;
+  height: 100px;
+}
+
+.img-titles {
+  font-size: 15px;
+  font-weight: 100;
+  text-align: center;
+  color: rgb(51, 49, 49);
 }
 
 .social a {
