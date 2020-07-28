@@ -350,6 +350,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   display: flex;
   list-style: none;
   justify-content: space-between;
+  padding-left: 0;
 }
 
 .custom-navmenu .custom-menu, .custom-navmenu .custom-menu li {
@@ -405,6 +406,10 @@ h1, h2, h3, h4, h5, h6, .font-heading {
     padding-left: 0;
   }
 }
+
+/* .container{
+  width: auto;
+} */
 
 .custom-navbar .navbar-brand {
   font-size: 1.7rem;
@@ -536,6 +541,60 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   color: #000;
 }
 
-.col-md-7{
-  max-width: 50%;
+.col{
+  display: flex;
+  
+}
+
+.img-div{
+  padding-right: 50px;
+}
+
+.mb-0{
+  font-size: 25px;
+}
+
+.contact-github{
+  background:url(../img/github.png);
+  padding:20px;
+  padding-right: 40px;
+  background-repeat:no-repeat;
+  background-size:contain
+}
+.contact-github:hover{
+  transform: scale(1.5);
+}
+
+.contact-linkedin{
+  background:url(../img/linkedin.png);
+  padding:20px;
+  padding-right: 40px;
+  background-repeat:no-repeat;
+  background-size:contain
+}
+.contact-linkedin:hover{
+  transform: scale(1.5);
+}
+
+.contact-angellist{
+  background:url(../img/angellist.png);
+  padding:20px;
+  background-repeat:no-repeat;
+  background-size:contain
+}
+.contact-angellist:hover{
+  transform: scale(1.5);
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  display:flex;
+  flex-direction:row;
+  width:200px;
+  justify-content:space-between;
+  padding-right: 100px;
 }
